@@ -1,0 +1,53 @@
+{
+  "name": "arco-work",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "staging": "vite build --mode staging",
+    "tsc": "vue-tsc --noEmit",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^7.1.2",
+    "axios": "^0.24.0",
+    "js-cookie": "^3.0.1",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "path-browserify": "^1.0.1",
+    "pinia": "^2.0.9",
+    "qs": "^6.10.1",
+    "tiny-emitter": "^2.1.0",
+    "vue": "^3.2.26",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.18.0",
+    "@types/js-cookie": "^3.0.1",
+    "@types/lodash": "^4.14.178",
+    "@types/nprogress": "^0.2.0",
+    "@types/qrcode": "^1.4.1",
+    "@types/qs": "^6.9.7",
+    "@types/quill": "^2.0.9",
+    "@types/simplemde": "^1.11.8",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "dotenv": "^12.0.4",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-define-config": "^1.0.9",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "postcss": "^8.4.3",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.5.3",
+    "unplugin-vue-components": "^0.17.21",
+    "vite": "^2.6.4",
+    "vite-plugin-components": "^0.13.3",
+    "vite-plugin-svg-icons": "^1.0.5",
+    "vue-tsc": "^0.3.0"
+  }
+}
