@@ -1,4 +1,3 @@
-import { path } from 'path-browserify'
 import { mapTwoLevelRouter } from '@/utils'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
@@ -46,6 +45,7 @@ export const constantRoutes = [
         name: 'WorkPlace',
         component: (): any => import('@/views/index/work-place.vue'),
         meta: {
+          affix: true,
           title: '工作台',
         },
       },
